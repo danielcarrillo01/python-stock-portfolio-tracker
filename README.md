@@ -7,39 +7,39 @@ The application presents results in a clear, tabulated portfolio summary showing
 
 ### Key Features:
 
-•	Add and remove stock holdings by symbol and quantity
-•	Fetch recent market prices using an external API
-•	Calculate portfolio metrics including total value, dollar return,  and percentage return
-•	Display a consolidated portfolio summary table with per stock and total performance
-•	Persist user portfolio data locally using JSON storage
-•	Support multiple user portfolios identified by name
+- Add and remove stock holdings by symbol and quantity
+- Fetch recent market prices using an external API
+- Calculate portfolio metrics including total value, dollar return,  and percentage return
+- Display a consolidated portfolio summary table with per stock and total performance
+- Persist user portfolio data locally using JSON storage
+- Support multiple user portfolios identified by name
 
 ### Technologies Used:
 
-•	**Python**
-•	**requests** (API data retrieval)
-•	**tabulate** (formatted console output)
-•	**JSON** (local data persistence)
+- **Python**
+- **requests** (API data retrieval)
+- **tabulate** (formatted console output)
+- **JSON** (local data persistence)
 
 ### What This Project Demonstrates:
 
 This project demonstrates applied financial analysis and practical Python development, including:
-•	Working with external APIs and managing rate limits
-•	Data manipulation and calculation of financial metrics (returns, portfolio value)
-•	Designing persistent data storage for user specific data
-•	Writing modular functions for calculations, data handling, and display logic
-•	Implementing basic testing to validate calculation accuracy
+- Working with external APIs and managing rate limits
+- Data manipulation and calculation of financial metrics (returns, portfolio value)
+- Designing persistent data storage for user specific data
+- Writing modular functions for calculations, data handling, and display logic
+- Implementing basic testing to validate calculation accuracy
 
 ### Project Structure:
 
-•	project.py – Main application logic, including portfolio management, calculations, API integration, and display
-•	test_project.py – Unit tests for portfolio calculation functions
-•	requirements.txt – Required third party libraries
+- project.py – Main application logic, including portfolio management, calculations, API integration, and display
+- test_project.py – Unit tests for portfolio calculation functions
+- requirements.txt – Required third party libraries
 
 ### Notes: 
 
-•	The project fetches prices based on the most recent market close due to API usage limits.
-•	An internal price cache is used to avoid redundant API calls during a single run.
+- The project fetches prices based on the most recent market close due to API usage limits.
+- An internal price cache is used to avoid redundant API calls during a single run.
 
 ### Background: 
 
